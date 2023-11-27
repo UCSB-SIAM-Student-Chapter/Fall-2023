@@ -18,6 +18,7 @@ x0=1  # initial position
 dt =.05 # time increment
 N=1000 # number of sample paths
 
+
 t_vals = np.arange(0,T,dt)
 num_t_vals= len(t_vals)
 x_vals=np.zeros((num_t_vals,N))
